@@ -1,0 +1,37 @@
+.welcome__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #111;
+  color: #fafafa;
+  background: linear-gradient(90deg, #63cd72, #4834df, #3867d6),
+    url("../assets/images/bg3.jpg") no-repeat center fixed;
+
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.logo__title {
+  letter-spacing: 2px;
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 6rem;
+  font-weight: 200;
+}
+
+.flex__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.letter-spacing {
+  letter-spacing: 1px;
+}
