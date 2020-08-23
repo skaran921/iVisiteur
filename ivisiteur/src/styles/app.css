@@ -68,12 +68,19 @@
   right: 0;
   margin: 8px;
   background: rgba(0, 0, 0, 0.3);
-  border: 1px dashed #4834df;
+  /* border: 1px dashed #4834df; */
+  cursor: pointer;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.4 \sease-in-out;
+}
+
+.checkout__box:hover {
+  background: rgba(0, 0, 0, 0.6);
+  /* border: 1px dashed #3867d6; */
 }
 
 .checkout__box__icon {
