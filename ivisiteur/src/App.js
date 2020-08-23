@@ -6,15 +6,23 @@ const App = () => {
     <div className="welcome__page">
       <div className="logo">
         <p className="logo__title">
-          <img src={logo} width="70" /> iVisiteur
+          <img src={logo} width="70" alt="" /> iVisiteur
         </p>
       </div>
-      <h1 className="heading">Sign In</h1>
-      <div class="flex__row">
+      <h1 className="heading">Welcome</h1>
+
+      <div className="flex__row">
         <h2 className="letter__spacing">
-          {" "}
-          <i className="fa fa-hand-pointer"></i> TOUCH TO START
+          <div style={{ position: "relative" }}>
+            <div className="circle__ripple"></div>
+            <i className="fa fa-hand-pointer"></i>&nbsp; TOUCH TO CHECK IN
+          </div>
         </h2>
+      </div>
+
+      <div className="checkout__box">
+        <i className="fa fa-sign-out checkout__box__icon"></i>
+        <p className="checkout__box__title">CHECK OUT</p>
       </div>
     </div>
   );
