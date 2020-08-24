@@ -1,0 +1,53 @@
+.step__1__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #111;
+  color: #fafafa;
+  background: linear-gradient(90deg, #63cd72, #4834df, #3867d6),
+    url("../../assets/images/bg5.jpg") no-repeat center fixed;
+  background-blend-mode: multiply;
+  background-size: cover;
+  transition: 0.3s ease-in;
+}
+
+.step__1__page > form > div > input {
+  transition: 0.4s ease-in;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  display: block;
+  margin: 4px;
+  width: 330px;
+  font-size: 1.2rem;
+  outline: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.step__1__page > form > div > input:focus {
+  border-bottom: 2px solid #63cd72;
+}
+
+.form__group {
+  display: grid;
+  grid-column-gap: 50px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  margin: 6px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.btn__next {
+  color: #fff;
+  background-color: #4834df;
+  width: 100px;
+}

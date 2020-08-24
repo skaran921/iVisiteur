@@ -9,9 +9,9 @@
   color: #fafafa;
   background: linear-gradient(90deg, #63cd72, #4834df, #3867d6),
     url("../assets/images/bg3.jpg") no-repeat center fixed;
-
   background-blend-mode: multiply;
   background-size: cover;
+  transition: 0.3s ease-in-out;
 }
 
 .logo__title {
@@ -90,4 +90,9 @@
 
 .checkout__box__title {
   font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
