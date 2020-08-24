@@ -1,0 +1,35 @@
+.visitor__types__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #111;
+  color: #fafafa;
+  background: linear-gradient(90deg, #63cd72, #4834df, #3867d6),
+    url("../../assets/images/bg4.jpg") no-repeat center fixed;
+  background-blend-mode: multiply;
+  background-size: cover;
+  transition: 0.3s ease-in;
+}
+
+.visitor__types__page__heading {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.visitor__type__btn {
+  padding: 15px 30px;
+  font-size: 2rem;
+  background: rgba(0, 10, 10, 0.4);
+  width: 220px;
+  margin: 2px;
+  border-left: 1px solid #63cd72;
+  transition: 0.3s ease-in;
+}
+
+.visitor__type__btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+  border-left: 1px solid #4834df;
+}

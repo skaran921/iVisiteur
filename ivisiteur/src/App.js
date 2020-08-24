@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/app.css";
 import logo from "./assets/images/badge2.png";
+import { Link } from "react-router-dom";
 const App = () => {
   return (
     <div className="welcome__page">
@@ -12,12 +13,14 @@ const App = () => {
       <h1 className="heading">Welcome</h1>
 
       <div className="flex__row">
-        <h2 className="letter__spacing">
-          <div style={{ position: "relative" }}>
-            <div className="circle__ripple"></div>
-            <i className="fa fa-hand-pointer"></i>&nbsp; TOUCH TO CHECK IN
-          </div>
-        </h2>
+        <Link to="/visitorType">
+          <h2 className="letter__spacing">
+            <div style={{ position: "relative" }}>
+              <div className="circle__ripple"></div>
+              <i className="fa fa-hand-pointer"></i>&nbsp; TOUCH TO CHECK IN
+            </div>
+          </h2>
+        </Link>
       </div>
 
       <div className="checkout__box">
